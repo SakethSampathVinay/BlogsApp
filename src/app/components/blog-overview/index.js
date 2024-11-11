@@ -1,23 +1,18 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button";
-
+import { useState } from "react";
+import AddNewBlog from "../add-new-blog";
 
 function BlogOverview() {
-    return (
-        <div>
-            <div className="min-h-screen flex justify-center items-center bg-gradient-to-r from-purple-500 to-blue-600 p-6">
-                <div>
-                    <Button>Add New Blog Section 
-                        
-                    </Button>
-                </div>
-                <div>
-                    Blog List Section 
-                </div>
-            </div>
-        </div>
-    )
+  const [openBlogDialog, setOpenBlogDialog] = useState(false);
+  return (
+    <div>
+      <AddNewBlog
+        openBlogDialog={openBlogDialog}
+        setOpenBlogDialog={setOpenBlogDialog}
+      />
+    </div>
+  );
 }
 
 export default BlogOverview;
