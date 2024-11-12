@@ -1,4 +1,4 @@
-// src/database/index.js
+/*// src/database/index.js
 import mongoose from "mongoose";
 
 const connectionUrl = "mongodb+srv://sakethsampath2006:79BYgwy2ttLYaq0H@cluster0.jivdt.mongodb.net/blog-app";
@@ -42,11 +42,11 @@ const connectToDB = async () => {
   }
 };
 
-export default connectToDB;
+export default connectToDB; */
 
 
 
-/*import mongoose from "mongoose";
+import mongoose from "mongoose";
 
 const connectToDB = async () => {
   const connectionUrl =
@@ -57,4 +57,4 @@ const connectToDB = async () => {
     .catch((error) => console.log(error));
 };
 
-export default connectToDB;*/
+export default connectToDB;

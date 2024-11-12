@@ -1,4 +1,4 @@
-// src/models/blog.js
+/*// src/models/blog.js
 import mongoose from "mongoose";
 
 const BlogSchema = new mongoose.Schema({
@@ -19,10 +19,10 @@ const BlogSchema = new mongoose.Schema({
 const Blog = mongoose.models.Blog || mongoose.model("Blog", BlogSchema);
 
 export default Blog;
+*/
 
 
-
-/*import mongoose from "mongoose"
+import mongoose from "mongoose"
 
 
 // database 
@@ -37,4 +37,4 @@ const BlogSchema = new mongoose.Schema({
 
 const Blog = mongoose.models.Blog || mongoose.model("Blog", BlogSchema);
 
-export default Blog;*/
+export default Blog;

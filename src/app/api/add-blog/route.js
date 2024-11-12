@@ -1,5 +1,5 @@
-import connectToDB from "@/database";
-import Blog from "@/models/blog";
+import connectToDB from "@/app/database";
+import Blog from "@/app/models";
 import Joi from "joi";
 import { NextResponse } from "next/server";
 
